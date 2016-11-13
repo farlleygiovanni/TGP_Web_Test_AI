@@ -124,6 +124,16 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BANCO\BANCO.csproj">
+      <Project>{1a32e62e-d5a1-4c46-b302-fb13e7838d85}</Project>
+      <Name>BANCO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TGP_AI_ALG\TGP_AI_ALG.csproj">
+      <Project>{b77c92d0-2073-4cbf-914f-4cbc49c84f1f}</Project>
+      <Name>TGP_AI_ALG</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
