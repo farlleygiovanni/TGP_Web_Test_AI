@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TGP_AI_ALG.objetos
 {
-    public class individuo_comparado
+    public class individuo_comparado_output
     {
         [Required(ErrorMessage = "O estado da informação e necessario")]
         [Display(Name = "Alfa")]
@@ -21,14 +21,5 @@ namespace TGP_AI_ALG.objetos
         [Required(ErrorMessage = "A informação propriamente dita e necessaria")]
         [Display(Name = "Teta")]
         public teta TETA { get; set; }
-        [Required(ErrorMessage = "Parametro de controle de beta")]
-        [Display(Name = "Beta_Min")]
-        public double BETA_MIN { get; set; }
-        [Required(ErrorMessage = "Parametro de controle de beta")]
-        [Display(Name = "Beta_max")]
-        public double BETA_MAX { get; set; }
-        [Required(ErrorMessage = "Parametro de controle da evolução da população resposta")]
-        [Display(Name = "FiltroEvolutivo")]
-        public double Filtro_Evol { get; set; }
     }
 }

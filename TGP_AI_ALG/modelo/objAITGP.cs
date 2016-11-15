@@ -149,7 +149,7 @@ namespace TGP_AI_ALG.modelo
                 {
                     vle_media += v_gama[0];
                 }
-                vle_media = (1 / (v_gama.Count) * vle_media;
+                vle_media = (1 / (v_gama.Count) * vle_media);
                 return vle_media;
             }
             catch (Exception ex)

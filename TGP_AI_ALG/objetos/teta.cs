@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TGP_AI_ALG.objetos
 {
-    class teta
+    public class teta
     {
         [Required(ErrorMessage = "A informação e necessaria")]
         [Display(Name = "teta")]
